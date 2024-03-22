@@ -4,7 +4,7 @@
 
 VIAtoYOLO is a tool to convert labeled data from VGG Image Annotator (VIA) tool to YOLO format to train instance segmentation algorithms on YOLO series like YOLOv9. This is an implementation on Python 3.
 
-<img width="1680" alt="via_tool" src="https://github.com/iberganzo/VIAtoYOLO/assets/75735764/5b57ec2a-ae28-4fb3-99c5-253360fd751d">
+<img width="1680" alt="via_tool" src="https://github.com/iberganzo/VIAtoYOLO/assets/75735764/721c65ad-7934-43b1-b917-258bea598bea">
 
 ### Workflow
 
