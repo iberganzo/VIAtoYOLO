@@ -14,10 +14,10 @@ VIA: https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html
 
 YOLO segmentation format for one class: `0 x1 y1 x2 y2 x3 y3 x4 y4 ... xn yn`
 
-2. Save all the labeled JSON files you want to convert to YOLO format in the `/VIA/` folder. Now run the python code `viatoyolo`. Ensure you indicate the size of the images in pixels both horizontally and vertically `--img 512 512`.
+2. Save all the labeled JSON files you want to convert to YOLO format in the `/VIA/` folder. Now run the python code `viatoyolo`. Ensure you indicate the size of the images in pixels both horizontally and vertically `--img 1024 768`.
 
 ```ini
-python3 viatoyolo.py --img 1280 768
+python3 viatoyolo.py --img 1024 768
 ```
 
 3. The resulting labeled data converted to yolo format (for one class) is saved in `/yolo/` folder. You will find a TXT file for each image inside the JSON files.
